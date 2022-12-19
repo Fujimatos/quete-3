@@ -130,3 +130,135 @@ header {
     border-right: 29px solid transparent;
     rotate :196deg;    
 }
+#carre1 {
+    height: 351px;
+    width: 351px;
+    background-color: blue;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 436px; left: 834px;
+}
+
+#carre2{
+    height: 176px;
+    width: 176px;
+    background-color: blue;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 523px; left: 1042px;
+}
+
+#triangle1{
+    height: 0px;
+    width: 0px;
+    border-right: 180px solid transparent;
+    border-bottom: 180px solid transparent;
+    border-left: 180px solid black;
+    border-image-outset: black;
+    transform: translate(818px,355px);
+    rotate: 45deg;
+    border-top:1px solid transparent;
+    position: absolute;
+    left: 443px;
+    top: 12px;
+
+}
+
+#triangle2{
+    height: 0px;
+    width: 0px;
+    border-right: 180px solid transparent;
+    border-bottom: 180px solid transparent;
+    border-left: 180px solid black;
+    border-image-outset: black solid transparent;
+    position:absolute;
+    top: 208px;
+    left: 641px;
+
+    rotate: 225deg;
+    border-top:1px solid transparent;
+}
+
+#triangle11{
+    height: 0px;
+    width: 0px;
+    border-right: 174px solid transparent;
+    border-bottom: 170px solid transparent;
+    border-left: 170px solid rgb(0, 225, 255);
+    border-image-outset: rgb(0, 225, 255);
+    position: absolute;
+    top: 219px;
+    left: 653px;
+    rotate: 225deg;
+    border-top:1px solid transparent;
+}
+#trianglep{
+    height: 0px;
+    width: 0px;
+    border-right: 168px solid transparent;
+    border-bottom: 168px solid transparent;
+    border-left: 168px solid rgb(0, 225, 255);
+    border-image-outset: blue;
+    position: absolute;
+    top: 840px;
+    left: 780px;
+    border-top:1px solid transparent;
+    rotate: 45deg;
+
+}
+
+#rectangle1{
+    width: 50px;
+    height: 170px;
+    background-color: rgb(0, 225, 255);
+    position: absolute;
+    top: 607px;
+    left: 691px;
+    rotate: 45deg;
+}
+#rectangle2{
+    width: 50px;
+    height: 170px;
+    background-color: rgb(0, 225, 255);
+    position: absolute;
+    top: 447px;
+    left: 691px;
+    rotate: 135deg;
+
+}
+
+#queue1{
+    height: 0px;
+    width: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid rgb(0, 225, 255);
+    border-image-outset: blue;
+    position: absolute;
+    top: 449px;
+    left: 572px;
+    rotate: 133deg;
+    border-top:1px solid transparent;
+}
+
+#queue2{
+    height: 0px;
+    width: 0;
+    border-image-outset: black;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid rgb(0, 225, 255);
+    border-image-outset: white;
+    position: absolute;
+    top: 767px;
+    left: 571px;
+    rotate: 136deg;
+    border-top:1px solid transparent;
+}
+section div{
+    margin: 5px;
+    border: solid;
+    border: outset black;
+    display: inline-flex;
+    flex-direction: row;
+    flex-direction: column;}
